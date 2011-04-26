@@ -1,0 +1,186 @@
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+html, body { 
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+body {
+background-color: #97694F;
+font-family: "Times New Roman", Times, serif;
+}
+
+#container {
+    position: absolute;
+    width: 1000px;
+    left: 50%;
+    min-height: 700px;
+    margin-left: -500px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 25px;
+    background-color: #EEDFCC;
+    border-radius:10px;
+    -webkit-border-radius:10px; /* Safari */
+
+    -moz-box-shadow: 3px 3px 3px #888888; /* Firefox 3.6 and earlier */
+    -webkit-box-shadow: 3px 3px 3px #888888; /* Safari and Chrome */
+    box-shadow: 3px 3px 3px #3B3B3B;
+}
+
+#container h1 {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30pt;
+    font-style:italic;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#container h2{
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20pt;
+    font-style:italic;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#login {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;   
+}
+
+#login td{
+    padding: 5px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15pt;
+    font-style:italic;
+}
+
+#reglinks {
+    width:275px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;  
+    font-size: 15pt;
+    font-style:italic;
+}
+
+#reglinks a:link {
+    text-decoration: none;
+    color: black;
+}
+
+#reglinks a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+#reglinks a:hover {
+    color: #97694F;
+    font-weight: bold;
+}
+
+.finder {
+    width: 525px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px; 
+}
+
+.finder td {
+    padding: 5px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14pt;
+    font-style:italic;
+}
+
+#logout {
+    width:50px;
+    float:right;
+}
+
+#logout a:link {
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+}
+
+#logout a:visited {
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+}
+
+#logout a:hover {
+    color: #97694F;
+    font-weight: bold;
+}
+
+.back {
+    width:50px;
+    float:right;
+    margin-bottom: 0px;
+}
+
+.back a:link {
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+}
+
+.back a:visited {
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+}
+
+.back a:hover {
+    color: #97694F;
+    font-weight: bold;
+}
+
+.search {
+    width: 1000px;
+    min-height: 680px;
+}
+
+.results {
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.results th td {
+   border: 1px solid black;
+   padding: 10px;
+}
+
+.tdresults {
+   padding: 10px; 
+}
+
+.regform {
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px; 
+}
+
+#footer {
+    width: 600px;
+    margin-top:200px;
+    margin-left: 200px;
+}
+
